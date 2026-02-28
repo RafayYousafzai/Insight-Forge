@@ -10,16 +10,6 @@ export const Header: React.FC = () => {
         </div>
         <span className="font-bold text-xl tracking-tight text-slate-900">InsightForge</span>
       </div>
-      
-      <a 
-        href="https://twitter.com/Rafay835113" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="flex items-center space-x-2 text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors"
-      >
-        <span>Built by Rafay Khan</span>
-        <ExternalLink className="w-4 h-4" />
-      </a>
     </header>
   );
 };
